@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${mod_version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "authors": [
+    "Team Aurora"
+  ],
+  "contributors": [
+    "ebo2022"
+  ],
+  "contact": {
+    "homepage": "https://discord.gg/VzXSCFp",
+    "issues": "https://github.com/teamauroramods/${archives_base_name}/issues",
+    "sources": "https://github.com/teamauroramods/${archives_base_name}/"
+  },
+  "license": "GPLv3",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.teamaurora.borealib.core.fabric.BorealibFabric"
+    ]
+  },
+  "mixins": [
+    "${mod_id}.mixins.json",
+    "${mod_id}-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": "~${minecraft_version}",
+    "borealib": ">=${borealib_version}"
+  }
+}

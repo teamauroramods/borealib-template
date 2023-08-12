@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "com.teamaurora.borealib.core.mixin.forge",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+  ],
+  "mixins": [
+    "AxeItemMixin",
+    "FireBlockAccessor",
+    "HandshakeHandlerMixin",
+    "ItemBlockRenderTypesMixin",
+    "ModContainerAccessor",
+    "SelfBEWLRBlockItemMixin",
+    "SelfBorealibChestBlockEntityMixin",
+    "SimpleJsonResourceReloadListenerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

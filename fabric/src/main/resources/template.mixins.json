@@ -1,0 +1,39 @@
+{
+  "required": true,
+  "package": "com.teamaurora.borealib.core.mixin.fabric",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "client.ClientHandshakePacketListenerImplMixin",
+    "client.IntegratedServerMixin"
+  ],
+  "mixins": [
+    "AxeItemMixin",
+    "BiomeAccessor",
+    "BiomeModificationImplAccessor",
+    "BoneMealItemMixin",
+    "ClientHandshakePacketListenerImplAccessor",
+    "DedicatedServerMixin",
+    "ExplosionMixin",
+    "FabricDynamicRegistryProviderMixin",
+    "FurnaceResultSlotMixin",
+    "ItemMixin",
+    "LevelMixin",
+    "MinecraftServerMixin",
+    "ModifierRecordAccessor",
+    "PlayerAdvancementsMixin",
+    "PlayerListMixin",
+    "PlayerMixin",
+    "ProjectileMixin",
+    "RegistryDataLoaderMixin",
+    "RegistrySynchronizationMixin",
+    "ResultSlotMixin",
+    "SaplingBlockMixin",
+    "ServerGamePacketListenerImplAccessor",
+    "ServerLoginPacketListenerImplAccessor",
+    "ServerLoginPacketListenerImplMixin",
+    "WorldLoaderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
